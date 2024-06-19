@@ -1,0 +1,40 @@
+header {
+  background-image: url(tausta.png);
+  text-align: center;
+  min-height: 70px ;
+}
+nav {
+  background-color: DarkGreen;
+  text-align: center;
+  color: white;
+  font-family:courier new;
+  min-heigth: 20 px;
+}
+img {
+  heigth: 80px ;
+  width: 80px ;
+  float: left;
+}
+h2 {
+  color: White;
+  font-size: 60px;
+  font-family: courier new;
+}
+
+h1 {
+  font-family: sans-serif;
+  
+}
+
+@media (prefers-color-scheme: light) {
+    body {
+        background-color: white;
+        color: black;
+    }
+}
+@media (prefers-color-scheme: dark) {
+    body {
+        background-color: black;
+        color: white;
+    }
+}
