@@ -39,10 +39,17 @@ h1 {
     }
 }
 @media only screen and (max-device-width: 400px) {
+    header {
     max-width: 400px;
+    }
 }
 @media only screen and (max-device-width: 768px) {
-    max-width: 768px;
+  header {  
+  max-width: 768px;
+  }
 }
 @media only screen and (max-device-width: 1080px) {
-    max-width: 1080px;
+  header {  
+  max-width: 1080px;
+  }
+}
