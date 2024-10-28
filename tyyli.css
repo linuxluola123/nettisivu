@@ -25,6 +25,9 @@ h1 {
   font-family: sans-serif;
   
 }
+a {
+  color: white;
+}
 
 @media (prefers-color-scheme: light) {
     body {
