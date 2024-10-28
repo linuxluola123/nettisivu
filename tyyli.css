@@ -25,17 +25,22 @@ h1 {
   font-family: sans-serif;
   
 }
-a {
-  color: white;
-}
+
 
 @media (prefers-color-scheme: light) {
+    a {
+  color: white;
+    }
+  
     body {
         background-color: white;
         color: black;
     }
 }
 @media (prefers-color-scheme: dark) {
+    a {
+  color: white;
+    }  
     body {
         background-color: black;
         color: white;
