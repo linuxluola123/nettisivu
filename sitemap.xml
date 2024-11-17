@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url>
+    <loc>https://www.example.com/foo.html</loc>
+    <lastmod>2022-06-04</lastmod>
+  </url>
+  <url>
+    <loc>https://linuxluola123.github.io/nettisivu/index.html</loc>
+    <lastmod>2024-01-01</lastmod>
+  </url>
+  <url>
+    <loc>https://linuxluola123.github.io/nettisivu/alasivu1.html</loc>
+    <lastmod>2022-06-04</lastmod>
+  </url>
+  <url>
+    <loc>https://linuxluola123.github.io/nettisivu/alasivu2.html</loc>
+    <lastmod>2022-06-04</lastmod>
+  </url>
+</urlset>
