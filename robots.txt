@@ -1,0 +1,7 @@
+User-agent: Googlebot
+Allow: /
+
+User-agent: *
+Allow: /
+sitemap: https://linuxluola123.github.io/nettisivu/sitemap.xml
+sitemap: https://linuxluola123.github.io/nettisivu/sitemap.txt
