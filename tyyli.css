@@ -36,6 +36,11 @@ h1 {
         background-color: white;
         color: black;
     }
+      h2 {
+      color: black;
+      font-size: 60px;
+      font-family: courier new;
+    }
 }
 @media (prefers-color-scheme: dark) {
     a {
@@ -44,5 +49,10 @@ h1 {
     body {
         background-color: black;
         color: white;
+    }
+    h2 {
+      color: White;
+      font-size: 60px;
+      font-family: courier new;
     }
 }
