@@ -37,14 +37,12 @@ h1 {
         color: black;
     }
     h2 {
-    color: black;
-    font-size: 60px;
-    font-family: courier new;
-    text-shadow: 2px 2px #006400;
+        color: black;
+        font-size: 60px;
+        font-family: courier new;
+        text-shadow: 2px 2px #006400;
     }
      
-  
-    }
 }
 @media (prefers-color-scheme: dark) {
     a {
