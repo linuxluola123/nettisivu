@@ -1,0 +1,69 @@
+header {
+  background-image: url(tausta.png);
+  text-align: center;
+  min-height: 70px ;
+}
+nav {
+  background-color: DarkGreen;
+  text-align: center;
+  color: white;
+  font-family:courier new;
+  min-heigth: 20 px;
+}
+.pingviini {
+  heigth: 80px ;
+  width: 80px ;
+  float: left;
+}
+h2 {
+  color: White;
+  font-size: 60px;
+  font-family: courier new;
+}
+
+h1 {
+  font-family: sans-serif;
+  
+}
+
+
+@media (prefers-color-scheme: light) {
+    a {
+  color: black;
+    }
+  
+    body {
+        background-color: white;
+        color: black;
+    }
+    h2 {
+        color: black;
+        font-size: 60px;
+        font-family: courier new;
+        text-shadow: 2px 2px #006400;
+    }
+     
+}
+@media (prefers-color-scheme: dark) {
+    a {
+  color: white;
+    }  
+    body {
+        background-color: black;
+        color: white;
+    }
+    h2 {
+      color: White;
+      font-size: 60px;
+      font-family: courier new;
+    }
+}
+p {
+  font-family: sans-serif;
+}
+h3 {
+  font-family: sans-serif;
+}
+h4 {
+  font-family: sans-serif;
+}
