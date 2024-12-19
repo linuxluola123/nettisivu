@@ -1,6 +1,6 @@
 .kuvateksti {
-  height: 5000;
-
+  font-family: sans-serif;
+  font-size: 999999;
 }
 header {
   background-image: url(tausta.png);
