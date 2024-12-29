@@ -1,0 +1,43 @@
+<!DOCTYPE  html>
+<html>
+<meta charset="UTF-8">
+<head>
+<meta name="description" content="overwriting">
+<link rel="canonical" href="https://linuxluola123.github.io/nettisivu/"/>
+<title>linuxluola</title>
+	<link rel="icon" type="image/x-icon" href="https://linuxluola123.github.io/nettisivu/Tux.svg.png">
+	<link rel="stylesheet" href="https://linuxluola123.github.io/nettisivu/tyyli.css">
+</head>
+
+<body>
+<header>
+<img src="https://linuxluola123.github.io/nettisivu/Tux.svg.png" alt="logo of linuxluola" >
+
+<h2>Linuxluola</h2>
+</header>
+<nav>
+tämä nettisivu on "hieman" kesken
+</nav>
+<main> 
+
+<a href="https://linuxluola123.github.io/nettisivu/index.html">Etusivulle</a>
+<h1>Levyjen ylikirjoitus</h1>
+<p>Mikä on ylikirjotus? Ylikirjoitus on keino tyhjentää kovalevy (tai ssd).<br>EnkÖ voi vaan poistaa tavallisesti kaikkia tedostoja? Tiedoston poistaminen vain postaa sen listasta jossa lukee missä tiedostot on eikä sitä tiedostoa.</p>
+
+<h5>Millon levyn ylikirjoitus on tarpeen?</h5>
+<p>Levy kannattaa ylikirjoittaa jos aiot antaa sen jollekkin toiselle kuten vaikkapa myydä tietokoneen. <br>Tiedon tärkeydestä riippuen voi olla välillä myös hyvä ottaa kovalevy pois.</p>
+<p>Traficomilla on hyvät ohjeet etenkin yrityksille ja ne löytää tästä: <a href="https://www.kyberturvallisuuskeskus.fi/sites/default/files/media/file/Tallennusv%C3%A4lineiden%20tyhjennys%20ja%20uusiok%C3%A4ytt%C3%B6.PDF">Tallennusvälineiden tyhjennys ja uusiokäyttö (pdf)</a> ja <a href="https://www.kyberturvallisuuskeskus.fi/sites/default/files/media/regulation/ohje-ylikirjoitus.pdf">Kiintolevyjen elinkaaren hallinta - Ylikirjoitus ja uusiokäyttö (pdf)</a></p>
+<h5>Ylikirjoitus DBAN-ohjelmaa käyttäen (Darik’s Boot and Nuke)</h5>
+<p>DBAN on ilmainen avoimen lähdekoodin ohjelmisto ylikirjoitukseen. Tämä ohjelma pitää polttaa cdlle, dvdlle tai kirjoittaa usblle ja sitten käynnistää kone sillä.</p>
+<p>Aloitetaan lataamalla dban ja jos käytän usbtä niin ladataan sen kirjoittamiseen sopiva ohjelma. <br>Sen voi ladata <a href="https://sourceforge.net/projects/dban/">tästä.</a><br>Usblle kirjoittamiseen suosittelen fedora media writeria jonka voi ladata <a href="https://fedoraproject.org/fi/workstation/download/">tästä.</a><br>Linuxin käyttäjät voivat tehdä sen myös komentorivissä ddllä. Ohje siihen löytyy <a href="https://www.cyberciti.biz/faq/creating-a-bootable-ubuntu-usb-stick-on-a-debian-linux/">tästä.</a> <br>
+Fedora media witeria käyttäessä pitää valita "select .iso file" tai jotain vastaavaa ja valita se DBAN iso tiedosto. Sen jälkeen vain valitset oikean usbitikun ja painat kirjoita (tai write).<br>Jos käytät cdtä tai dvdtä voit käyttää vaikkapa Windowsin sisäänrakennettua toimintoa klikkaamalla ladattua tiedostoa hiiren oikealla ja valitsemalla "kirjoita levylle" tai mitä tahansa sinne päin.</p>
+<br><br><p>Nyt olisi siis ohjelma ladattuna ja kirjoitettuna jollekkin levylle (usb, cd, dvd) joten voidaan siirtyä seuraavaan vaiheeseen eli itse ylikirjoittamiseen. <br>Käynnistä tietokone siltä levyltä (mene biosiin ja boottaa siltä. sinne pääsee painamalla jotain nappia mitä tietokoneesi näyttää. Se on yleensä esc delete tai f2.).<br>
+Sitten vaan valitaan levy joka halutaan ylikirjoittaa ja metodi jolla se ylikirjoitetaan. Ohjelma kertoo mitä tehdä.</p>
+</main>
+<foot>
+<br><br>
+<p>🄯 copyleft <a href="https://www.gnu.org/licenses/old-licenses/gpl-2.0.html">GNU General Public License v2.0</a></p>
+<img src="https://linuxluola123.github.io/nettisivu/made-with-vim.png" width="1000" height="60" alt="made with vim">
+</foot>
+</body>
+</html>
