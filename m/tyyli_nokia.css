@@ -2,7 +2,7 @@ h2 {
   font-size: 16vw;
   text-align: center;
   font-family: courier new;
-
+  max-width: 400px;
 }
 h1 {
   font-family: sans-serif;
