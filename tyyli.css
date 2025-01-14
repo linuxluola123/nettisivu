@@ -3,8 +3,6 @@
   margin-top: 9px;
 }
 
-
-
 header {
   background-image: url(tausta.png);
   text-align: center;
@@ -49,7 +47,10 @@ h1 {
         font-family: courier new;
         text-shadow: 2px 2px #006400;
     }
-     
+    .html5sininen {
+    width: 0px;
+    height: 0px;
+  }
 }
 @media (prefers-color-scheme: dark) {
     a {
@@ -64,4 +65,8 @@ h1 {
       font-size: 60px;
       font-family: courier new;
     }
+  .html5normi {
+    width: 0px;
+    height: 0px;
+  }
 }
