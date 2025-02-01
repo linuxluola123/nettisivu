@@ -4,8 +4,10 @@
 }
 
 .nojs {
-  margin-top: 9px;
-
+  margin-top: -30px;
+  margin-left: 1px;
+  height: 102px;
+  width: 130px;
 }
 
 header {
