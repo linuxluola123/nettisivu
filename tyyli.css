@@ -53,12 +53,16 @@ h1 {
         text-shadow: 2px 2px #006400;
     }
     .html5sininen {
-    width: 0px;
-    height: 0px;
-    .nojstumma
+      width: 0px;
+      height: 0px;
+    }
+    .nojstumma {
       widht: 0px;
       height: 0px;
-  }
+    }
+    
+
+
 }
 @media (prefers-color-scheme: dark) {
     a {
@@ -77,8 +81,10 @@ h1 {
     width: 0px;
     height: 0px;
   }
-  .nojsnormi
+  .nojsnormi {
     width: 0px;
     height: 0px;
+  }
 }
+
 
