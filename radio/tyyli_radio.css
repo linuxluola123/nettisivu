@@ -1,4 +1,6 @@
+a {
 
+}
 
 
 header {
@@ -59,10 +61,10 @@ h1 {
         color: black;
     }
     h2 {
-        color: black;
+        color: white;
         font-size: 60px;
         font-family: courier new;
-        text-shadow: 2px 2px #006400;
+        text-shadow: 1px 1px black;
     }
      
 }
