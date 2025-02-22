@@ -1,0 +1,88 @@
+
+
+
+header {
+  background-image: url(tausta_radio.png);
+  text-align: center;
+  min-height: 70px ;
+}
+nav {
+  background-color: darkblue;
+  text-align: center;
+  color: white;
+  font-family:courier new;
+  min-heigth: 20 px;
+}
+
+
+
+
+
+h2 {
+  color: White;
+  font-size: 60px;
+  font-family: courier new;
+}
+
+h1 {
+  font-family: sans-serif;
+  
+}
+
+@media only screen and (max-width: 1080px) {
+  body {
+    img {
+      width: 100%;
+    }
+  }
+}
+@media only screen and (min-width: 1081px) {
+  body {
+    img {
+      width: 50%;
+    }
+  }
+}
+
+
+@media (prefers-color-scheme: light) {
+    a {
+  color: black;
+    }
+  
+    html {
+        background-color: white;
+        color: black;
+    }
+    h2 {
+        color: black;
+        font-size: 60px;
+        font-family: courier new;
+        text-shadow: 2px 2px #006400;
+    }
+     
+}
+@media (prefers-color-scheme: dark) {
+    a {
+  color: white;
+    }  
+    html {
+        background-color: black;
+        color: white;
+    }
+    h2 {
+      color: White;
+      font-size: 60px;
+      font-family: courier new;
+    }
+}
+p {
+  font-family: sans-serif;
+}
+h3 {
+  font-family: sans-serif;
+}
+h4 {
+  font-family: sans-serif;
+}
+
