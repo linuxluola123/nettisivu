@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="fi">
+<meta charset="UTF-8">
+
+
+<meta name="description" content="radio">
+<meta property="og:image" content="https://linuxluola123.github.io/nettisivu/radio">
+
+<link rel="canonical" href="https://linuxluola123.github.io/nettisivu/radio/">
+<title>Linuxluola - Radio</title>
+<link rel="icon" type="image/x-icon" href="../Tux.svg.png">
+<link rel="stylesheet" href="tyyli_radio.css">
+</head>
+
+
+<body>
+  <header>
+    <h2>Radio</h2>
+  </header>
+  <nav>
+    Kaikkea hauskaa radioista
+  </nav>
+  <main>
+
+
+    <a href="https://linuxluola123.github.io/nettisivu/radio/index.html">Etusivulle</a>
+
+    <h1>NOAA 15, 18 ja 19 vastaanotto apt järjestelmällä</h1>
+    <p>Jos sinulta löytyy ssb radio joka pääsee noin 137mhz niin tämä on mahdollista (esim rtl-sdr toimii) taikka käytät
+      jotain nettiradiota esim. spyserver.<br>
+      Itselläni rtl-sdr ja pieni teleskooppiantenni joka on sidottu jesarilla puumajaan (joten ei kummosia kuvia).
+    </p>
+    <h3>Vaihe 1: satellliittien kyttäys</h3>
+    <p>Suosittelen lataamaan gpredictin jolla satelliitteja voi kivasti seurata. <a
+        href="https://www.n2yo.com/?s=33591|28654|25338">Tästä nettisivusta voi myös olla hyötyä.</a></p>
+
+    <h3>Vaihe 2: nauhoitus</h3>
+    <p>No tässähän voit käyttää ihan mitä huvittaa mutta suosittelisin sdr++ tai satdumppia. Kaikki satelliitit
+      käyttävät nfm modulaatiota ja 50khz kaistanleveyttä. Alla satellliittien taajudet:</p>
+    <table>
+      <tr>
+        <th>Satelliitti</th>
+        <th>Taajuus</th>
+      </tr>
+      <tr>
+        <td>NOAA 19</td>
+        <td>137,1000 mhz</td>
+      </tr>
+      <tr>
+        <td>NOAA 18</td>
+        <td>137,9125 mhz</td>
+      </tr>
+      <tr>
+        <td>NOAA 15</td>
+        <td>137.6200 mhz</td>
+      </tr>
+    </table>
+    <h3>Vaihe 3: dekoodaus</h3>
+    <p>Nyt kun sinulla on ne nauhoitukset voidaan aloittaa niiden dekoodaus. Tähän voi käyttää satdumppia tai mitä ikinä
+      tahtookaan</p>
+    <h3>Muutamia Kuvia</h3>
+    <img src="noaa-apt1.png" alt="">
+    <img src="noaa-apt2.png" alt="">
+  </main>

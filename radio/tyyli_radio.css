@@ -1,4 +1,8 @@
+table, th, td {
+  border: 1px solid;
 
+
+}
 
 header {
   background-image: url(tausta_radio.png);
