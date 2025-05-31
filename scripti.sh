@@ -1,7 +1,7 @@
 #/bin/bash
 echo "Tämä ohjelma asentaa openttdn koodísta debianille"
 cd ~/
-sudo apt install build-essential pkg-config libsdl1.2-dev git zlib1g-dev liblzo2-dev liblzma-dev libfontconfig-dev libicu-dev libfluidsynth-dev
+sudo apt install build-essential pkg-config libsdl1.2-dev git zlib1g-dev liblzo2-dev liblzma-dev libfontconfig-dev libicu-dev libfluidsynth-dev -y
 git clone https://github.com/OpenTTD/OpenTTD.git .openttdkoodi
 cd .openttdkoodi
 mkdir build
