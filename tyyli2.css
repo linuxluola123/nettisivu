@@ -26,15 +26,17 @@ h1 {
   
 }
 
-video {
-  width: 80%; 
-}
-
 @media only screen and (max-width: 1080px) {
   body {
     img {
       width: 100%;
     }
+    video {
+      width: 100%; 
+    }
+}
+
+
   }
 }
 @media only screen and (min-width: 1081px) {
@@ -42,7 +44,14 @@ video {
     img {
       width: 50%;
     }
+    video {
+      width: 50%;
+    }
+}
+
+
   }
+
 }
 
 .keskitä {
