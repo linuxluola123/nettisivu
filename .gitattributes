@@ -1,0 +1,2 @@
+encoded_videos/*.ogv filter=lfs diff=lfs merge=lfs -text
+encoded_videos/*.webm filter=lfs diff=lfs merge=lfs -text
