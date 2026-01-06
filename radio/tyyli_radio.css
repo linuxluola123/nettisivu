@@ -93,3 +93,18 @@ h4 {
   font-family: sans-serif;
 }
 
+@media screen and (max-width: 600px) {
+  header {
+    background-image: none!important;
+    img {
+      display: none;
+    }
+    h2 {
+      font-size:300%;
+    }
+  }
+  nav {
+    font-family: sans;
+  }
+
+}
